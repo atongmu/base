@@ -6,4 +6,5 @@ package com.example.base.utils;
  * @Description:
  */
 public class BaseController {
+
 }
