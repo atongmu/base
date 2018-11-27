@@ -7,7 +7,7 @@ import java.util.Objects;
  * @Date: 2018-09-14 20:51
  * @Description:
  */
-public class JSONRest {
+public class JSONResult {
     private Integer code;
     private String msg;
     private Object data;
@@ -36,11 +36,11 @@ public class JSONRest {
         this.data = data;
     }
 
-    public JSONRest() {
+    public JSONResult() {
         super();
     }
 
-    public JSONRest(Integer code,String msg, Object data) {
+    public JSONResult(Integer code, String msg, Object data) {
         super();
         this.code = code;
         this.msg = msg;
