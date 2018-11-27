@@ -35,16 +35,16 @@ public class SwaggerConfig {
 				.globalOperationParameters(aParameters)
 				.select()
 				// Controller所在包(必须新建包)
-				.apis(RequestHandlerSelectors.basePackage("com.example.base.controller"))
+				.apis(RequestHandlerSelectors.basePackage("com.example.base.web"))
 				.paths(PathSelectors.any()).build();
 	}
 
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder()
 				// 标题
-				.title("高投行政督查系统")
+				.title("通用架构")
 				// 描述
-				.description("行政督查系统")
+				.description("通用架构")
 				// 超链接
 				.termsOfServiceUrl("")
 				.version("1.0").build();
